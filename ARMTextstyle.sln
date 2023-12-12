@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARMTextstyle", "ARMTextstyle\ARMTextstyle.csproj", "{E22FD770-F9AF-430C-8030-4C8A9156F9F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E22FD770-F9AF-430C-8030-4C8A9156F9F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E22FD770-F9AF-430C-8030-4C8A9156F9F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E22FD770-F9AF-430C-8030-4C8A9156F9F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E22FD770-F9AF-430C-8030-4C8A9156F9F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D01BC2E9-8C19-472F-8661-25D38F333800}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="TextileConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="TextileConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ARMTextstyle.Properties.Settings.GlobalReference.Default.TextileConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="All_tkanunu_pokazTableAdapter" GeneratorDataComponentClassName="All_tkanunu_pokazTableAdapter" Name="All_tkanunu_pokaz" UserDataComponentName="All_tkanunu_pokazTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TextileConnectionString (Settings)" DbObjectName="Textile.dbo.All_tkanunu_pokaz" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT artycul, shilnist, nazva_tkanunu, nazva_pruznachenya, nazva_kolory, nazva_material, opus FROM dbo.All_tkanunu_pokaz</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="artycul" DataSetColumn="artycul" />
+              <Mapping SourceColumn="shilnist" DataSetColumn="shilnist" />
+              <Mapping SourceColumn="nazva_tkanunu" DataSetColumn="nazva_tkanunu" />
+              <Mapping SourceColumn="nazva_pruznachenya" DataSetColumn="nazva_pruznachenya" />
+              <Mapping SourceColumn="nazva_kolory" DataSetColumn="nazva_kolory" />
+              <Mapping SourceColumn="nazva_material" DataSetColumn="nazva_material" />
+              <Mapping SourceColumn="opus" DataSetColumn="opus" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="DataSet1" msprop:Generator_DataSetName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="All_tkanunu_pokaz" msprop:Generator_RowEvHandlerName="All_tkanunu_pokazRowChangeEventHandler" msprop:Generator_RowDeletedName="All_tkanunu_pokazRowDeleted" msprop:Generator_RowDeletingName="All_tkanunu_pokazRowDeleting" msprop:Generator_RowEvArgName="All_tkanunu_pokazRowChangeEvent" msprop:Generator_TablePropName="All_tkanunu_pokaz" msprop:Generator_RowChangedName="All_tkanunu_pokazRowChanged" msprop:Generator_RowChangingName="All_tkanunu_pokazRowChanging" msprop:Generator_TableClassName="All_tkanunu_pokazDataTable" msprop:Generator_RowClassName="All_tkanunu_pokazRow" msprop:Generator_TableVarName="tableAll_tkanunu_pokaz" msprop:Generator_UserTableName="All_tkanunu_pokaz">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="artycul" msprop:Generator_ColumnPropNameInRow="artycul" msprop:Generator_ColumnPropNameInTable="artyculColumn" msprop:Generator_ColumnVarNameInTable="columnartycul" msprop:Generator_UserColumnName="artycul">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="shilnist" msprop:Generator_ColumnPropNameInRow="shilnist" msprop:Generator_ColumnPropNameInTable="shilnistColumn" msprop:Generator_ColumnVarNameInTable="columnshilnist" msprop:Generator_UserColumnName="shilnist" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nazva_tkanunu" msprop:Generator_ColumnPropNameInRow="nazva_tkanunu" msprop:Generator_ColumnPropNameInTable="nazva_tkanunuColumn" msprop:Generator_ColumnVarNameInTable="columnnazva_tkanunu" msprop:Generator_UserColumnName="nazva_tkanunu" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nazva_pruznachenya" msprop:Generator_ColumnPropNameInRow="nazva_pruznachenya" msprop:Generator_ColumnPropNameInTable="nazva_pruznachenyaColumn" msprop:Generator_ColumnVarNameInTable="columnnazva_pruznachenya" msprop:Generator_UserColumnName="nazva_pruznachenya" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nazva_kolory" msprop:Generator_ColumnPropNameInRow="nazva_kolory" msprop:Generator_ColumnPropNameInTable="nazva_koloryColumn" msprop:Generator_ColumnVarNameInTable="columnnazva_kolory" msprop:Generator_UserColumnName="nazva_kolory" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nazva_material" msprop:Generator_ColumnPropNameInRow="nazva_material" msprop:Generator_ColumnPropNameInTable="nazva_materialColumn" msprop:Generator_ColumnVarNameInTable="columnnazva_material" msprop:Generator_UserColumnName="nazva_material" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="opus" msprop:Generator_ColumnPropNameInRow="opus" msprop:Generator_ColumnPropNameInTable="opusColumn" msprop:Generator_ColumnVarNameInTable="columnopus" msprop:Generator_UserColumnName="opus" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:All_tkanunu_pokaz" />
+      <xs:field xpath="mstns:artycul" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
